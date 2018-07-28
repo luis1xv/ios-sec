@@ -37,6 +37,8 @@ line vty 0 4
 exec-timeout 2 30
 login local
 transport input telnet ssh
+!<-- add 
+logging synchronous
 exit
 
 !SSH
